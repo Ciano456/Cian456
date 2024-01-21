@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="m-0">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cian O'Connor Portfolio Website</title>
+    <!-- Include Tailwind CSS via CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body class="font-sans m-0">
+
+<nav class="bg-gradient-to-r from-green-800 to-lime-700 p-4 fixed top-0 w-full">
+    <div class="container mx-auto flex justify-between items-center">
+        <a class="text-2xl font-bold" href="#">Cian O'Connor</a>
+        <div class="flex items-center">
+            <ul class="flex space-x-4">
+                <li><a href="#Main" class="text-white-700 hover:text-black">Home</a></li>
+                <li><a href="#CV" class="text-white-700 hover:text-black">CV</a></li>
+                <li><a href="#socials" class="text-white-700 hover:text-black">Socials</a></li>
+                <li><a href="#about" class="text-grey-700 hover:text-black">About Me</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="bg-gradient-to-r from-green-800 to-lime-700 container mx-auto flex items-center justify-center h-screen">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="text-center">
+            <section id="main-text">
+                <h2 class="text-4xl font-bold">Hello, I'm Cian</h2>
+            </section>
+
+            <!-- CV section -->
+            <section id="first-text">
+                <h2 class="text-2xl font-semibold">Aspiring Software Developer</h2>
+            </section>
+        </div>
+
+        <!-- Body text -->
+        <div class="text-center">
+            <!-- About section -->
+            <section id="body-text">
+                <h2 class="text-2xl font-semibold">Currently studying computer science & working as a database administrator</h2>
+            </section>
+        </div>
+    </div>
+</div>
+
+<!-- Include Tailwind CSS via CDN -->
+<script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.js"></script>
+
+<!-- Include Alpine.js for certain interactive features (optional) -->
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"></script>
+
+</body>
+
+</html>
